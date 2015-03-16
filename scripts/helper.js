@@ -60,6 +60,7 @@ var getFileDescription = function(path) {
 		}
 	}
 	return {
+		filename : path,
 		lang: language,
 		loc: loc,
 		comments: comments
@@ -78,7 +79,7 @@ var generateCodeMetrics = function(path) {
 			if(m)
 				metrics.push(m);
 		}
-		return mergeMetrics(metrics);
+		return mergeMetrics(metrics, path);
 	} else {
 		var desc = getFileDescription(path);
 		if(desc) {
@@ -88,13 +89,31 @@ var generateCodeMetrics = function(path) {
 			metric['language_distribution'] = lang_dist;
 			metric['loc'] = desc.loc - desc.comments;
 			metric['comments'] = desc.comments;
+			metric['filename'] = desc.filename;
 			// console.log(metric);
 			return metric;
 		}
 	}
 }
 
-var mergeMetrics = function(metrics) {
+var fileCount = function(path) {
+	if(isDirectory(path)) {
+		var files = fs.readdirSync(path);
+		var n = 0;
+		for(var i = 0; i < files.length; i++)
+			n += fileCount(path + '/' + files[i]);
+		return n;
+	} else {
+		for(var key in lang_map) {
+			// If name ends with given extension
+			if(endsWith(path, key))
+				return 1;
+		}
+		return 0;
+	}
+}
+
+var mergeMetrics = function(metrics, path) {
 	var loc = 0;
 	var com = 0;
 	var dist = {};
@@ -120,7 +139,8 @@ var mergeMetrics = function(metrics) {
 	return {
 		language_distribution : dist,
 		loc : loc,
-		comments : com
+		comments : com,
+		filename: path
 	};
 }
 
@@ -136,6 +156,7 @@ var isDirectory = function(path) {
 module.exports = {
 	getFileDescription : getFileDescription,
 	generateCodeMetrics : generateCodeMetrics,
+	fileCount : fileCount,
 	mergeMetrics : mergeMetrics,
 	isDirectory : isDirectory,
 	lang_map : lang_map,

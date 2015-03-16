@@ -10,15 +10,15 @@ Mohamed Adam Chaieb, McGill ID 260509069
 
 ## Setup
 
-To execute the scripts in the `scripts` directory, namely the `main.js` script, you need to have node.js installed on your local machine. Further information on installing node.js can [be found here](https://nodejs.org/download/).
+To execute the scripts in the `scripts` directory, you need to have at least version `0.12.0` of node.js installed on your local machine. Further information on installing node.js can [be found here](https://nodejs.org/download/).
 
 After cloning the repo to a local directory, simply run:
 
 ```
-node scripts/main.js [source-directory]
+node scripts/getmetrics.js [chromium-source-directory]
 ```
 
-The script will generate all the metrics of source code in `source-directory` required in the specification in JSON format in the `metrics` directory.
+The script will generate all the metrics of Chromium source code in `chromium-source-directory` required in the specification in JSON format in the `metrics` directory.
 
 ## Getting the code
 
