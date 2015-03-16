@@ -5,6 +5,7 @@ Scripts and documentation for the CS 529 project on Google Chrome
 ## Authors
 
 Saige McVea, McGill ID 260466561
+
 Mohamed Adam Chaieb, McGill ID 260509069
 
 ## Setup
@@ -14,7 +15,11 @@ To execute the scripts in the `scripts` directory, namely the `main.js` script, 
 After cloning the repo to a local directory, simply run:
 
 ```
-node main.js
+node scripts/main.js
 ```
 
 The script will generate all the metrics required in the specification in JSON format in the `metrics` directory.
+
+## Getting the code
+
+To get the code from the Chromium project, [look here](http://dev.chromium.org/developers/how-tos/get-the-code).
