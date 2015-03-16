@@ -6,10 +6,19 @@
 var m = require("./helper.js");
 var fs = require('fs');
 
-console.log("Starting metrics script...");
+var OUTPUT_PATH = 'metrics/code_metrics.json';
+var path = process.argv[2];
 
-var metrics = m.generateCodeMetrics(process.argv[2]);
+console.log("Generating code metrics of code in " + path);
 
-console.log(JSON.stringify(metrics, null, 2));
+var metrics = [];
+var files = fs.readdirSync(path);
 
-// TODO: complete the script
+for(var i = 0; i < files.length; i++) {
+	metrics.push(m.generateCodeMetrics(path+'/'+files[i]))
+}
+var output = {
+	general_metrics: m.mergeMetrics(metrics),
+	per_file: metrics
+}
+fs.writeFileSync(OUTPUT_PATH, JSON.stringify(output, null, 2));

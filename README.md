@@ -15,10 +15,10 @@ To execute the scripts in the `scripts` directory, namely the `main.js` script, 
 After cloning the repo to a local directory, simply run:
 
 ```
-node scripts/main.js
+node scripts/main.js [source-directory]
 ```
 
-The script will generate all the metrics required in the specification in JSON format in the `metrics` directory.
+The script will generate all the metrics of source code in `source-directory` required in the specification in JSON format in the `metrics` directory.
 
 ## Getting the code
 

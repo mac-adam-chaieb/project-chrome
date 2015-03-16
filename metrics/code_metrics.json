@@ -1,11 +1,1900 @@
 {
-  "language_distribution": {
-    "Python": 2781,
-    "C++": 128177,
-    "C": 41651,
-    "Java": 8769,
-    "Objective-C": 6009
+  "general_metrics": {
+    "language_distribution": {
+      "Python": 2781,
+      "C++": 128177,
+      "C": 41651,
+      "Java": 8769,
+      "Objective-C": 6009
+    },
+    "loc": 150493,
+    "comments": 36894
   },
-  "loc": 150493,
-  "comments": 36894
+  "per_file": [
+    null,
+    null,
+    null,
+    {
+      "language_distribution": {
+        "Python": 48
+      },
+      "loc": 45,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C++": 1069,
+        "C": 156,
+        "Python": 55
+      },
+      "loc": 1041,
+      "comments": 239
+    },
+    {
+      "language_distribution": {
+        "C++": 3435,
+        "C": 1636,
+        "Java": 7420,
+        "Python": 2678
+      },
+      "loc": 13560,
+      "comments": 1609
+    },
+    {
+      "language_distribution": {
+        "C": 60
+      },
+      "loc": 8,
+      "comments": 52
+    },
+    {
+      "language_distribution": {
+        "C++": 92
+      },
+      "loc": 84,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C++": 147
+      },
+      "loc": 124,
+      "comments": 23
+    },
+    {
+      "language_distribution": {
+        "C++": 68
+      },
+      "loc": 57,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C++": 70
+      },
+      "loc": 56,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C": 51
+      },
+      "loc": 24,
+      "comments": 27
+    },
+    {
+      "language_distribution": {
+        "C++": 84
+      },
+      "loc": 79,
+      "comments": 5
+    },
+    {
+      "language_distribution": {
+        "C": 45
+      },
+      "loc": 19,
+      "comments": 26
+    },
+    {
+      "language_distribution": {
+        "C": 48
+      },
+      "loc": 34,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C": 128
+      },
+      "loc": 41,
+      "comments": 87
+    },
+    {
+      "language_distribution": {
+        "C": 291
+      },
+      "loc": 273,
+      "comments": 18
+    },
+    {
+      "language_distribution": {
+        "C": 213
+      },
+      "loc": 130,
+      "comments": 83
+    },
+    {
+      "language_distribution": {
+        "C": 88
+      },
+      "loc": 74,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C": 97
+      },
+      "loc": 86,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C": 192
+      },
+      "loc": 185,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C": 243
+      },
+      "loc": 204,
+      "comments": 39
+    },
+    {
+      "language_distribution": {
+        "C": 189
+      },
+      "loc": 149,
+      "comments": 40
+    },
+    {
+      "language_distribution": {
+        "C++": 80
+      },
+      "loc": 55,
+      "comments": 25
+    },
+    {
+      "language_distribution": {
+        "C": 202
+      },
+      "loc": 174,
+      "comments": 28
+    },
+    {
+      "language_distribution": {
+        "C": 176
+      },
+      "loc": 155,
+      "comments": 21
+    },
+    {
+      "language_distribution": {
+        "C++": 223
+      },
+      "loc": 203,
+      "comments": 20
+    },
+    {
+      "language_distribution": {
+        "C": 32
+      },
+      "loc": 21,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C++": 50
+      },
+      "loc": 46,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C": 17
+      },
+      "loc": 2,
+      "comments": 15
+    },
+    {
+      "language_distribution": {
+        "C++": 35
+      },
+      "loc": 32,
+      "comments": 3
+    },
+    null,
+    null,
+    null,
+    {
+      "language_distribution": {
+        "C++": 34
+      },
+      "loc": 29,
+      "comments": 5
+    },
+    {
+      "language_distribution": {
+        "C": 20
+      },
+      "loc": 13,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C++": 39
+      },
+      "loc": 36,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 33
+      },
+      "loc": 30,
+      "comments": 3
+    },
+    null,
+    {
+      "language_distribution": {
+        "C++": 44
+      },
+      "loc": 40,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C": 44
+      },
+      "loc": 31,
+      "comments": 13
+    },
+    {
+      "language_distribution": {
+        "C++": 51
+      },
+      "loc": 40,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C": 21
+      },
+      "loc": 15,
+      "comments": 6
+    },
+    {
+      "language_distribution": {
+        "C": 20
+      },
+      "loc": 14,
+      "comments": 6
+    },
+    {
+      "language_distribution": {
+        "Objective-C": 94
+      },
+      "loc": 72,
+      "comments": 22
+    },
+    {
+      "language_distribution": {
+        "C++": 105
+      },
+      "loc": 92,
+      "comments": 13
+    },
+    {
+      "language_distribution": {
+        "C": 19
+      },
+      "loc": 9,
+      "comments": 10
+    },
+    {
+      "language_distribution": {
+        "C++": 173
+      },
+      "loc": 149,
+      "comments": 24
+    },
+    {
+      "language_distribution": {
+        "C": 36
+      },
+      "loc": 16,
+      "comments": 20
+    },
+    {
+      "language_distribution": {
+        "C++": 42
+      },
+      "loc": 5,
+      "comments": 37
+    },
+    {
+      "language_distribution": {
+        "C": 34
+      },
+      "loc": 30,
+      "comments": 4
+    },
+    null,
+    {
+      "language_distribution": {
+        "C": 37
+      },
+      "loc": 27,
+      "comments": 10
+    },
+    {
+      "language_distribution": {
+        "C++": 104
+      },
+      "loc": 101,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 87
+      },
+      "loc": 68,
+      "comments": 19
+    },
+    {
+      "language_distribution": {
+        "C++": 103
+      },
+      "loc": 90,
+      "comments": 13
+    },
+    {
+      "language_distribution": {
+        "C": 67
+      },
+      "loc": 14,
+      "comments": 53
+    },
+    {
+      "language_distribution": {
+        "C++": 13
+      },
+      "loc": 10,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 337
+      },
+      "loc": 70,
+      "comments": 267
+    },
+    {
+      "language_distribution": {
+        "C": 274
+      },
+      "loc": 132,
+      "comments": 142
+    },
+    {
+      "language_distribution": {
+        "C": 55
+      },
+      "loc": 45,
+      "comments": 10
+    },
+    {
+      "language_distribution": {
+        "C++": 702
+      },
+      "loc": 573,
+      "comments": 129
+    },
+    {
+      "language_distribution": {
+        "C": 164
+      },
+      "loc": 124,
+      "comments": 40
+    },
+    {
+      "language_distribution": {
+        "C": 42
+      },
+      "loc": 35,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C++": 46
+      },
+      "loc": 42,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C++": 23
+      },
+      "loc": 15,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C": 16
+      },
+      "loc": 2,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C++": 34
+      },
+      "loc": 28,
+      "comments": 6
+    },
+    {
+      "language_distribution": {
+        "C": 62
+      },
+      "loc": -289,
+      "comments": 351
+    },
+    {
+      "language_distribution": {
+        "C": 16
+      },
+      "loc": 13,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C++": 41
+      },
+      "loc": 38,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 39
+      },
+      "loc": 26,
+      "comments": 13
+    },
+    {
+      "language_distribution": {
+        "C++": 60
+      },
+      "loc": 57,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C++": 34
+      },
+      "loc": 29,
+      "comments": 5
+    },
+    {
+      "language_distribution": {
+        "C": 125
+      },
+      "loc": 38,
+      "comments": 87
+    },
+    {
+      "language_distribution": {
+        "C": 165
+      },
+      "loc": 98,
+      "comments": 67
+    },
+    {
+      "language_distribution": {
+        "C++": 274
+      },
+      "loc": 255,
+      "comments": 19
+    },
+    {
+      "language_distribution": {
+        "C": 44
+      },
+      "loc": 35,
+      "comments": 9
+    },
+    {
+      "language_distribution": {
+        "C++": 172
+      },
+      "loc": 158,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C": 39
+      },
+      "loc": 26,
+      "comments": 13
+    },
+    {
+      "language_distribution": {
+        "C": 80
+      },
+      "loc": 27,
+      "comments": 53
+    },
+    {
+      "language_distribution": {
+        "C++": 158
+      },
+      "loc": 130,
+      "comments": 28
+    },
+    {
+      "language_distribution": {
+        "C++": 19
+      },
+      "loc": 11,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C++": 316,
+        "C": 68
+      },
+      "loc": 278,
+      "comments": 106
+    },
+    {
+      "language_distribution": {
+        "C++": 410
+      },
+      "loc": 367,
+      "comments": 43
+    },
+    {
+      "language_distribution": {
+        "C": 140
+      },
+      "loc": 49,
+      "comments": 91
+    },
+    {
+      "language_distribution": {
+        "C++": 361
+      },
+      "loc": 338,
+      "comments": 23
+    },
+    {
+      "language_distribution": {
+        "C": 113
+      },
+      "loc": 23,
+      "comments": 90
+    },
+    {
+      "language_distribution": {
+        "C": 1486,
+        "C++": 1241
+      },
+      "loc": 2181,
+      "comments": 546
+    },
+    {
+      "language_distribution": {
+        "C++": 256
+      },
+      "loc": 222,
+      "comments": 34
+    },
+    {
+      "language_distribution": {
+        "C": 83
+      },
+      "loc": 68,
+      "comments": 15
+    },
+    {
+      "language_distribution": {
+        "C++": 71
+      },
+      "loc": 47,
+      "comments": 24
+    },
+    {
+      "language_distribution": {
+        "C": 59
+      },
+      "loc": 36,
+      "comments": 23
+    },
+    {
+      "language_distribution": {
+        "Objective-C": 16
+      },
+      "loc": 13,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C++": 2955,
+        "C": 534
+      },
+      "loc": 2615,
+      "comments": 874
+    },
+    {
+      "language_distribution": {
+        "C++": 11
+      },
+      "loc": 3,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C++": 96
+      },
+      "loc": 90,
+      "comments": 6
+    },
+    {
+      "language_distribution": {
+        "C": 66
+      },
+      "loc": 52,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C++": 177
+      },
+      "loc": 168,
+      "comments": 9
+    },
+    {
+      "language_distribution": {
+        "C++": 207
+      },
+      "loc": 176,
+      "comments": 31
+    },
+    {
+      "language_distribution": {
+        "C": 65
+      },
+      "loc": 38,
+      "comments": 27
+    },
+    {
+      "language_distribution": {
+        "C++": 152
+      },
+      "loc": 138,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C": 35
+      },
+      "loc": 31,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C": 39
+      },
+      "loc": 24,
+      "comments": 15
+    },
+    {
+      "language_distribution": {
+        "C": 63
+      },
+      "loc": 37,
+      "comments": 26
+    },
+    {
+      "language_distribution": {
+        "C": 48
+      },
+      "loc": 41,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "Objective-C": 115
+      },
+      "loc": 105,
+      "comments": 10
+    },
+    {
+      "language_distribution": {
+        "C++": 136
+      },
+      "loc": 129,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C++": 181
+      },
+      "loc": 170,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C": 54
+      },
+      "loc": 44,
+      "comments": 10
+    },
+    {
+      "language_distribution": {
+        "C": 1559,
+        "C++": 12738,
+        "Objective-C": 48
+      },
+      "loc": 11854,
+      "comments": 2491
+    },
+    {
+      "language_distribution": {
+        "C": 35
+      },
+      "loc": 32,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 80
+      },
+      "loc": 57,
+      "comments": 23
+    },
+    {
+      "language_distribution": {
+        "C++": 113
+      },
+      "loc": 87,
+      "comments": 26
+    },
+    {
+      "language_distribution": {
+        "C": 20
+      },
+      "loc": -28,
+      "comments": 48
+    },
+    {
+      "language_distribution": {
+        "C++": 29
+      },
+      "loc": 26,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 25
+      },
+      "loc": 16,
+      "comments": 9
+    },
+    {
+      "language_distribution": {
+        "C++": 33
+      },
+      "loc": 22,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C++": 60
+      },
+      "loc": 55,
+      "comments": 5
+    },
+    {
+      "language_distribution": {
+        "C++": 37
+      },
+      "loc": 34,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C++": 14
+      },
+      "loc": 8,
+      "comments": 6
+    },
+    {
+      "language_distribution": {
+        "C": 32
+      },
+      "loc": 24,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C++": 61
+      },
+      "loc": 38,
+      "comments": 23
+    },
+    {
+      "language_distribution": {
+        "C": 689,
+        "C++": 4994
+      },
+      "loc": 4536,
+      "comments": 1147
+    },
+    {
+      "language_distribution": {
+        "C": 235
+      },
+      "loc": 189,
+      "comments": 46
+    },
+    {
+      "language_distribution": {
+        "C++": 345
+      },
+      "loc": 330,
+      "comments": 15
+    },
+    {
+      "language_distribution": {
+        "C": 273,
+        "Objective-C": 803
+      },
+      "loc": 835,
+      "comments": 241
+    },
+    {
+      "language_distribution": {
+        "C++": 3441,
+        "C": 881
+      },
+      "loc": 3695,
+      "comments": 627
+    },
+    {
+      "language_distribution": {
+        "C++": 36
+      },
+      "loc": 15,
+      "comments": 21
+    },
+    {
+      "language_distribution": {
+        "C": 128
+      },
+      "loc": 46,
+      "comments": 82
+    },
+    {
+      "language_distribution": {
+        "C++": 161
+      },
+      "loc": 148,
+      "comments": 13
+    },
+    {
+      "language_distribution": {
+        "C++": 162
+      },
+      "loc": 143,
+      "comments": 19
+    },
+    {
+      "language_distribution": {
+        "C": 28
+      },
+      "loc": 16,
+      "comments": 12
+    },
+    {
+      "language_distribution": {
+        "C++": 101
+      },
+      "loc": 94,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C": 82
+      },
+      "loc": 49,
+      "comments": 33
+    },
+    {
+      "language_distribution": {
+        "C++": 701
+      },
+      "loc": 590,
+      "comments": 111
+    },
+    {
+      "language_distribution": {
+        "C": 576
+      },
+      "loc": 215,
+      "comments": 361
+    },
+    {
+      "language_distribution": {
+        "C++": 238
+      },
+      "loc": 216,
+      "comments": 22
+    },
+    {
+      "language_distribution": {
+        "C++": 120
+      },
+      "loc": 100,
+      "comments": 20
+    },
+    {
+      "language_distribution": {
+        "C": 57
+      },
+      "loc": 32,
+      "comments": 25
+    },
+    {
+      "language_distribution": {
+        "C": 2411,
+        "Objective-C": 2872,
+        "C++": 682
+      },
+      "loc": 4803,
+      "comments": 1162
+    },
+    {
+      "language_distribution": {
+        "C": 70
+      },
+      "loc": -70,
+      "comments": 140
+    },
+    {
+      "language_distribution": {
+        "C++": 302
+      },
+      "loc": 298,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C": 37
+      },
+      "loc": -3,
+      "comments": 40
+    },
+    {
+      "language_distribution": {
+        "C++": 243
+      },
+      "loc": 232,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C++": 4802,
+        "C": 2430
+      },
+      "loc": 5459,
+      "comments": 1773
+    },
+    {
+      "language_distribution": {
+        "C++": 5663,
+        "C": 1486,
+        "Objective-C": 590
+      },
+      "loc": 5776,
+      "comments": 1963
+    },
+    {
+      "language_distribution": {
+        "C++": 5338,
+        "C": 1182
+      },
+      "loc": 5502,
+      "comments": 1018
+    },
+    {
+      "language_distribution": {
+        "C": 32
+      },
+      "loc": -167,
+      "comments": 199
+    },
+    {
+      "language_distribution": {
+        "C": 82
+      },
+      "loc": 62,
+      "comments": 20
+    },
+    {
+      "language_distribution": {
+        "Objective-C": 113
+      },
+      "loc": 93,
+      "comments": 20
+    },
+    {
+      "language_distribution": {
+        "C++": 47
+      },
+      "loc": 35,
+      "comments": 12
+    },
+    {
+      "language_distribution": {
+        "C++": 79
+      },
+      "loc": 68,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C++": 283,
+        "C": 73
+      },
+      "loc": 299,
+      "comments": 57
+    },
+    {
+      "language_distribution": {
+        "C": 891,
+        "C++": 542
+      },
+      "loc": 1229,
+      "comments": 204
+    },
+    {
+      "language_distribution": {
+        "C": 184
+      },
+      "loc": 125,
+      "comments": 59
+    },
+    {
+      "language_distribution": {
+        "C": 183
+      },
+      "loc": 98,
+      "comments": 85
+    },
+    {
+      "language_distribution": {
+        "C++": 501
+      },
+      "loc": 457,
+      "comments": 44
+    },
+    {
+      "language_distribution": {
+        "C++": 120
+      },
+      "loc": 62,
+      "comments": 58
+    },
+    {
+      "language_distribution": {
+        "C": 23
+      },
+      "loc": 16,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C++": 31
+      },
+      "loc": 19,
+      "comments": 12
+    },
+    {
+      "language_distribution": {
+        "C++": 28
+      },
+      "loc": 24,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C": 14
+      },
+      "loc": 10,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C++": 305
+      },
+      "loc": 267,
+      "comments": 38
+    },
+    {
+      "language_distribution": {
+        "C": 45
+      },
+      "loc": -4,
+      "comments": 49
+    },
+    {
+      "language_distribution": {
+        "C++": 236
+      },
+      "loc": 196,
+      "comments": 40
+    },
+    {
+      "language_distribution": {
+        "C++": 50
+      },
+      "loc": 42,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C": 48
+      },
+      "loc": 34,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C++": 359
+      },
+      "loc": 339,
+      "comments": 20
+    },
+    {
+      "language_distribution": {
+        "C": 202
+      },
+      "loc": 95,
+      "comments": 107
+    },
+    {
+      "language_distribution": {
+        "C++": 398
+      },
+      "loc": 364,
+      "comments": 34
+    },
+    {
+      "language_distribution": {
+        "C": 27
+      },
+      "loc": 16,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C": 242,
+        "C++": 812
+      },
+      "loc": 877,
+      "comments": 177
+    },
+    {
+      "language_distribution": {
+        "C++": 414,
+        "C": 233,
+        "Objective-C": 128
+      },
+      "loc": 626,
+      "comments": 149
+    },
+    {
+      "language_distribution": {
+        "C": 1901,
+        "C++": 5243
+      },
+      "loc": 5956,
+      "comments": 1188
+    },
+    {
+      "language_distribution": {
+        "C++": 7227,
+        "C": 914,
+        "Objective-C": 542
+      },
+      "loc": 6885,
+      "comments": 1798
+    },
+    {
+      "language_distribution": {
+        "C++": 239,
+        "C": 181
+      },
+      "loc": 304,
+      "comments": 116
+    },
+    {
+      "language_distribution": {
+        "C++": 62
+      },
+      "loc": 51,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C": 34
+      },
+      "loc": 7,
+      "comments": 27
+    },
+    {
+      "language_distribution": {
+        "C++": 39
+      },
+      "loc": 35,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C++": 53
+      },
+      "loc": 45,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C++": 115
+      },
+      "loc": 84,
+      "comments": 31
+    },
+    {
+      "language_distribution": {
+        "C++": 38
+      },
+      "loc": 31,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C++": 98
+      },
+      "loc": 88,
+      "comments": 10
+    },
+    {
+      "language_distribution": {
+        "C": 79
+      },
+      "loc": 37,
+      "comments": 42
+    },
+    {
+      "language_distribution": {
+        "C++": 75
+      },
+      "loc": 29,
+      "comments": 46
+    },
+    {
+      "language_distribution": {
+        "C": 16
+      },
+      "loc": -8,
+      "comments": 24
+    },
+    {
+      "language_distribution": {
+        "C": 31
+      },
+      "loc": 26,
+      "comments": 5
+    },
+    {
+      "language_distribution": {
+        "C++": 29
+      },
+      "loc": 26,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 119
+      },
+      "loc": 54,
+      "comments": 65
+    },
+    {
+      "language_distribution": {
+        "C++": 155
+      },
+      "loc": 138,
+      "comments": 17
+    },
+    {
+      "language_distribution": {
+        "C++": 43
+      },
+      "loc": 40,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 40
+      },
+      "loc": 26,
+      "comments": 14
+    },
+    {
+      "language_distribution": {
+        "C++": 33
+      },
+      "loc": 21,
+      "comments": 12
+    },
+    {
+      "language_distribution": {
+        "C": 53
+      },
+      "loc": 45,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C++": 306
+      },
+      "loc": 234,
+      "comments": 72
+    },
+    {
+      "language_distribution": {
+        "C": 38
+      },
+      "loc": 12,
+      "comments": 26
+    },
+    {
+      "language_distribution": {
+        "C++": 43
+      },
+      "loc": 38,
+      "comments": 5
+    },
+    {
+      "language_distribution": {
+        "C": 39
+      },
+      "loc": 24,
+      "comments": 15
+    },
+    {
+      "language_distribution": {
+        "C++": 308
+      },
+      "loc": 280,
+      "comments": 28
+    },
+    {
+      "language_distribution": {
+        "C++": 30
+      },
+      "loc": 27,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 59
+      },
+      "loc": -43,
+      "comments": 102
+    },
+    {
+      "language_distribution": {
+        "C": 84
+      },
+      "loc": 53,
+      "comments": 31
+    },
+    {
+      "language_distribution": {
+        "C": 23
+      },
+      "loc": 15,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C++": 187
+      },
+      "loc": 156,
+      "comments": 31
+    },
+    {
+      "language_distribution": {
+        "C++": 101
+      },
+      "loc": 92,
+      "comments": 9
+    },
+    {
+      "language_distribution": {
+        "C++": 61
+      },
+      "loc": 53,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C": 24
+      },
+      "loc": 9,
+      "comments": 15
+    },
+    {
+      "language_distribution": {
+        "C": 174
+      },
+      "loc": 86,
+      "comments": 88
+    },
+    {
+      "language_distribution": {
+        "C++": 258
+      },
+      "loc": 247,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C++": 8126,
+        "C": 1734,
+        "Objective-C": 184
+      },
+      "loc": 8100,
+      "comments": 1944
+    },
+    {
+      "language_distribution": {
+        "C++": 40
+      },
+      "loc": 33,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C": 63
+      },
+      "loc": 43,
+      "comments": 20
+    },
+    {
+      "language_distribution": {
+        "C++": 37
+      },
+      "loc": 33,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C": 106
+      },
+      "loc": 53,
+      "comments": 53
+    },
+    {
+      "language_distribution": {
+        "C++": 90
+      },
+      "loc": 80,
+      "comments": 10
+    },
+    {
+      "language_distribution": {
+        "C++": 220
+      },
+      "loc": 192,
+      "comments": 28
+    },
+    {
+      "language_distribution": {
+        "C++": 121
+      },
+      "loc": 109,
+      "comments": 12
+    },
+    {
+      "language_distribution": {
+        "C++": 307
+      },
+      "loc": 270,
+      "comments": 37
+    },
+    {
+      "language_distribution": {
+        "C++": 2616,
+        "C": 443
+      },
+      "loc": 2247,
+      "comments": 812
+    },
+    {
+      "language_distribution": {
+        "C": 107
+      },
+      "loc": 92,
+      "comments": 15
+    },
+    {
+      "language_distribution": {
+        "C++": 50
+      },
+      "loc": 42,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C": 93
+      },
+      "loc": 37,
+      "comments": 56
+    },
+    {
+      "language_distribution": {
+        "C++": 190
+      },
+      "loc": 160,
+      "comments": 30
+    },
+    {
+      "language_distribution": {
+        "C++": 202
+      },
+      "loc": 183,
+      "comments": 19
+    },
+    {
+      "language_distribution": {
+        "C++": 34
+      },
+      "loc": 30,
+      "comments": 4
+    },
+    {
+      "language_distribution": {
+        "C": 33
+      },
+      "loc": 30,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "Objective-C": 97
+      },
+      "loc": 85,
+      "comments": 12
+    },
+    {
+      "language_distribution": {
+        "C++": 94
+      },
+      "loc": 87,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C++": 89
+      },
+      "loc": 80,
+      "comments": 9
+    },
+    {
+      "language_distribution": {
+        "C++": 69
+      },
+      "loc": 61,
+      "comments": 8
+    },
+    {
+      "language_distribution": {
+        "C++": 124
+      },
+      "loc": 102,
+      "comments": 22
+    },
+    {
+      "language_distribution": {
+        "C++": 146
+      },
+      "loc": 135,
+      "comments": 11
+    },
+    {
+      "language_distribution": {
+        "C++": 115
+      },
+      "loc": 98,
+      "comments": 17
+    },
+    {
+      "language_distribution": {
+        "C++": 103,
+        "C": 54
+      },
+      "loc": 127,
+      "comments": 30
+    },
+    {
+      "language_distribution": {
+        "C++": 558,
+        "C": 86
+      },
+      "loc": 522,
+      "comments": 122
+    },
+    {
+      "language_distribution": {
+        "C++": 63
+      },
+      "loc": 56,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C": 54
+      },
+      "loc": -47,
+      "comments": 101
+    },
+    {
+      "language_distribution": {
+        "C": 49
+      },
+      "loc": 25,
+      "comments": 24
+    },
+    {
+      "language_distribution": {
+        "C++": 127
+      },
+      "loc": 124,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 108
+      },
+      "loc": 86,
+      "comments": 22
+    },
+    {
+      "language_distribution": {
+        "C++": 94
+      },
+      "loc": 77,
+      "comments": 17
+    },
+    {
+      "language_distribution": {
+        "Java": 1349,
+        "C++": 8111,
+        "C": 2795,
+        "Objective-C": 249
+      },
+      "loc": 10470,
+      "comments": 2034
+    },
+    {
+      "language_distribution": {
+        "C": 583,
+        "C++": 3193
+      },
+      "loc": 3073,
+      "comments": 703
+    },
+    {
+      "language_distribution": {
+        "C++": 43
+      },
+      "loc": 38,
+      "comments": 5
+    },
+    {
+      "language_distribution": {
+        "C": 30
+      },
+      "loc": 18,
+      "comments": 12
+    },
+    {
+      "language_distribution": {
+        "C": 1440,
+        "C++": 6411,
+        "Objective-C": 158
+      },
+      "loc": 5833,
+      "comments": 2176
+    },
+    {
+      "language_distribution": {
+        "C++": 2585,
+        "C": 572
+      },
+      "loc": 2354,
+      "comments": 803
+    },
+    {
+      "language_distribution": {
+        "C++": 962,
+        "C": 242
+      },
+      "loc": 972,
+      "comments": 232
+    },
+    {
+      "language_distribution": {
+        "C++": 271
+      },
+      "loc": 210,
+      "comments": 61
+    },
+    {
+      "language_distribution": {
+        "C++": 8018,
+        "C": 2510
+      },
+      "loc": 8902,
+      "comments": 1626
+    },
+    {
+      "language_distribution": {
+        "C++": 792
+      },
+      "loc": 607,
+      "comments": 185
+    },
+    {
+      "language_distribution": {
+        "C": 346
+      },
+      "loc": -74,
+      "comments": 420
+    },
+    {
+      "language_distribution": {
+        "C++": 705
+      },
+      "loc": 651,
+      "comments": 54
+    },
+    {
+      "language_distribution": {
+        "C++": 27
+      },
+      "loc": 24,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C": 41
+      },
+      "loc": 22,
+      "comments": 19
+    },
+    {
+      "language_distribution": {
+        "C": 248
+      },
+      "loc": 168,
+      "comments": 80
+    },
+    {
+      "language_distribution": {
+        "C++": 125
+      },
+      "loc": 119,
+      "comments": 6
+    },
+    {
+      "language_distribution": {
+        "C++": 44
+      },
+      "loc": 37,
+      "comments": 7
+    },
+    {
+      "language_distribution": {
+        "C": 26
+      },
+      "loc": 21,
+      "comments": 5
+    },
+    {
+      "language_distribution": {
+        "C++": 1130
+      },
+      "loc": 1101,
+      "comments": 29
+    },
+    {
+      "language_distribution": {
+        "C": 376
+      },
+      "loc": 203,
+      "comments": 173
+    },
+    {
+      "language_distribution": {
+        "C++": 1096
+      },
+      "loc": 1063,
+      "comments": 33
+    },
+    {
+      "language_distribution": {
+        "C++": 154
+      },
+      "loc": 130,
+      "comments": 24
+    },
+    {
+      "language_distribution": {
+        "C": 48
+      },
+      "loc": 21,
+      "comments": 27
+    },
+    {
+      "language_distribution": {
+        "C++": 153
+      },
+      "loc": 150,
+      "comments": 3
+    },
+    {
+      "language_distribution": {
+        "C++": 162
+      },
+      "loc": 141,
+      "comments": 21
+    },
+    {
+      "language_distribution": {
+        "C": 43
+      },
+      "loc": 7,
+      "comments": 36
+    },
+    {
+      "language_distribution": {
+        "C++": 117
+      },
+      "loc": 107,
+      "comments": 10
+    },
+    {
+      "language_distribution": {
+        "C++": 6907,
+        "C": 2424
+      },
+      "loc": 7724,
+      "comments": 1607
+    }
+  ]
 }

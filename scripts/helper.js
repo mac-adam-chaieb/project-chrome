@@ -1,27 +1,34 @@
 var fs = require('fs');
 
 var lang_map = {
-	".h" : "C",
-	".c" : "C",
 	".java" : "Java",
-	".py" : "Python",
-	".js" : "JavaScript",
 	".cpp" : "C++",
 	".cc" : "C++",
+	".h" : "C",
+	".c" : "C",
+	".py" : "Python",
+	".js" : "JavaScript",
 	".rb" : "Ruby",
 	".mm" : "Objective-C"
 }
 
 var comment_map = {
-	".c" : "\/\/",
-	".h" : "\/\/",
 	".java" : "\/\/",
-	".py" : "#",
-	".js" : "\/\/",
 	".cpp" : "\/\/",
 	".cc" : "\/\/",
+	".c" : "\/\/",
+	".h" : "\/\/",
+	".py" : "#",
+	".js" : "\/\/",
 	".rb" : "#",
 	".mm" : "\/\/"
+}
+
+var endsWith = function(str, end) {
+	var rev = function reverse(s){
+    return s.split("").reverse().join("");
+	}
+	return (rev(str).search(rev(end)) == 0);
 }
 
 var getFileDescription = function(path) {
@@ -30,9 +37,8 @@ var getFileDescription = function(path) {
 	var extension = null;
 	for(var key in lang_map) {
 		// If name ends with given extension
-		if(path.search(key) == path.length-key.length) {
+		if(endsWith(path, key)) {
 			extension = key;
-			console.log(extension);
 			break;
 		}
 	}
@@ -61,11 +67,6 @@ var getFileDescription = function(path) {
 }
 
 var generateCodeMetrics = function(path) {
-	// var metrics = {
-	// 	language_distribution : {},
-	// 	loc: 0,
-	// 	comments: 0
-	// };
 	if(isDirectory(path)) {
 		// console.log("RECURSING")
 		var files = fs.readdirSync(path);
@@ -87,7 +88,7 @@ var generateCodeMetrics = function(path) {
 			metric['language_distribution'] = lang_dist;
 			metric['loc'] = desc.loc - desc.comments;
 			metric['comments'] = desc.comments;
-			console.log(metric);
+			// console.log(metric);
 			return metric;
 		}
 	}
@@ -97,13 +98,13 @@ var mergeMetrics = function(metrics) {
 	var loc = 0;
 	var com = 0;
 	var dist = {};
-	if(metrics.length > 0) {
+	if(metrics[0] && metrics.length > 0) {
 		loc = metrics[0].loc;
 		com = metrics[0].comments;
 		dist = metrics[0].language_distribution;
 	}
-	for(var i = 1; i < metrics.length ; i++) {
-		if(metrics[i].loc && metrics[i].comments && metrics[i].language_distribution) {
+	for(var i = 1; i < metrics.length; i++) {
+		if(metrics[i] && metrics[i].loc && metrics[i].comments && metrics[i].language_distribution) {
 			loc += metrics[i].loc;
 			com += metrics[i].comments; 
 			for (var key in metrics[i].language_distribution) {
