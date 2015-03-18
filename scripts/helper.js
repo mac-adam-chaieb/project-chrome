@@ -32,7 +32,6 @@ var endsWith = function(str, end) {
 }
 
 var getFileDescription = function(path) {
-	var file_contents = fs.readFileSync(path).toString().split('\n');
 	// Determine the extension
 	var extension = null;
 	for(var key in lang_map) {
@@ -42,9 +41,17 @@ var getFileDescription = function(path) {
 			break;
 		}
 	}
-	if(extension == null)
-		return false;
-	var language = lang_map[extension];
+	var file_contents = fs.readFileSync(path).toString().split('\n');
+	if(extension == null) {
+		return {
+			filename : path,
+			language : 'Documentation',
+			loc : file_contents.length,
+			comments: 0
+		}
+	}
+	var language;
+	language = lang_map[extension];
 	var loc = 1;
 	var comments = 0;
 	var i = 0;
@@ -153,12 +160,21 @@ var isDirectory = function(path) {
 	}
 }
 
+var generateRandomString = function(length) {
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    for(var i = 0; i < length; i++)
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    return text;
+}
+
 module.exports = {
 	getFileDescription : getFileDescription,
 	generateCodeMetrics : generateCodeMetrics,
 	fileCount : fileCount,
 	mergeMetrics : mergeMetrics,
 	isDirectory : isDirectory,
+	generateRandomString : generateRandomString,
 	lang_map : lang_map,
 	comment_map : comment_map
 }

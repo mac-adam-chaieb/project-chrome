@@ -20,7 +20,7 @@ scripts/getmetrics.sh [chromium-source-directory]
 
 The script will generate all the metrics of Chromium source code in `chromium-source-directory` required in the specification in JSON format in the `metrics` directory.
 
-Due to the size of the Chromium code base, the script takes a long time to compute the metrics. You can always run the script on mutually-exclusive subsets of the code-base (to avoid redundancy in metrics), and the script will take care of merging the computed results with pre-existing ones in the `metrics` directory.
+Due to the size of the Chromium code base, the script takes a long time to compute the metrics.
 
 ## Getting the code
 

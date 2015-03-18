@@ -1,0 +1,17 @@
+{
+  "code_metrics": {
+    "language_distribution": {
+      "C++": 7499395,
+      "C": 2265303,
+      "undefined": 124568,
+      "Python": 747225,
+      "JavaScript": 1526420,
+      "Java": 280742,
+      "Objective-C": 164005,
+      "Ruby": 52
+    },
+    "loc": 11014754,
+    "comments": 1592956
+  },
+  "module_count": 67983
+}

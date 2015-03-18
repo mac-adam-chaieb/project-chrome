@@ -25,6 +25,5 @@ output = {
 	module_count : mod_count
 }
 
-var code = files.length;
-fs.writeFileSync("metrics/master_metrics"+code+".json", JSON.stringify(output, null, 2));
+fs.writeFileSync("metrics/master_metrics.json", JSON.stringify(output, null, 2));
 console.log("Done.");
